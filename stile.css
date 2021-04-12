@@ -1,0 +1,488 @@
+body{
+  background-image: url("images/home0.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+ }
+
+ #logo{
+   width: 280px;
+   position: Absolute;
+   top: 20px;
+   left: 1000px;
+ }
+
+ div{
+   font-size: 11px;
+    width: 0px;
+    height: 5px;
+    background-color: black;
+ }
+
+ /*------------MENU' DI NAVIGAZIONE-------------*/
+
+ .sidenav {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: -0;
+   opacity: 0.9;
+   overflow-x: hidden;
+   padding-top: 60px;
+   transition: 0.5s;
+   color: white;
+ }
+
+ .sidenav a {
+   font-weight: bold;
+   font-size: 40px;
+   color: #436EEE;
+   display: block;
+   transition: 0.3s;
+   background-size: auto;
+   border: solid black 1px;
+   width: 40%;
+   margin-bottom: 10px;
+   margin-right: auto;
+   margin-left: auto;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ .sidenav a:hover{
+   color: orange;
+ }
+ #btn{
+   position: fixed;
+   color: orange;
+   font-size: 2.5em;
+   top: 5%;
+   width: 10%;
+   left: 1%;
+   border: none;
+   background-size: cover;
+   min-width: 40px;
+   background-color: transparent;
+
+ }
+ #btn:hover{
+   cursor: pointer;
+ }
+ #chiudimenu{
+   position: absolute;
+   top: 0;
+   left: 25px;
+   font-size: 80px;
+   margin-right: 50px;
+   border: transparent;
+   margin-top: 10px;
+   color: #00B2EE;
+   background-color: transparent;
+ }
+ #chiudimenu:hover{
+   cursor: pointer;
+ }
+
+ /*------------HOME PAGE------------*/
+
+ #content{
+   float:left;
+   left:17%;
+   position: relative;
+   top: 205px;
+   background-color: white;
+   border: 5px solid #8B7765;
+   width:65%;
+   padding: 20px;
+   padding-bottom: 50px;
+   min-height: 100%;
+   height: 100%;
+   opacity: 0.9;
+
+ }
+
+ #content h1{
+   text-align: center;
+   color: orange;
+   font-size: 5em;
+   text-shadow: 5px 5px #C1CDCD;
+ }
+
+ #content p{
+   color: black;
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+   font-size: 2em;
+   font-style: italic;
+ }
+ #content p::first-letter{
+   font-size: 150%;
+   font-weight: bold;
+ }
+
+ /*-------------SEZIONE STAGIONI--------------*/
+
+ #content2{
+  float:left;
+  left:14%;
+  position:absolute;
+  top: 205px;
+  width:65%;
+  padding: 20px;
+  background: white;
+  border: 5px solid black;
+  min-height: 100%;
+  height:auto;
+  opacity: 0.9;
+  font-size: 35px;
+}
+#content2 p{
+  width: auto;
+  font-size:  20px;
+  margin-left: 1%;
+
+}
+#content2 p::first-letter{
+  font-size: 150%;
+}
+#content2 h1{
+  font-size: 35px;
+  text-align: center;
+}
+#stagioni{
+  color: #4876FF;
+  text-shadow: 2px 2px 8px 	#FF00FF;
+}
+#btntop{
+ position: fixed;
+ bottom: 30px;
+ right: 50px;
+ font-size: 20px;
+ z-index: 999;
+ background: #eee;
+ outline: none;
+ border: 2px solid #999;
+ padding: 10px 20px;
+ cursor: pointer;
+ text-decoration: none;
+ color: inherit;
+}
+#btntop:hover{
+   color: #fff;
+   background: #333;
+}
+#btntop a{
+  text-decoration: inherit;
+}
+
+
+/*-------------SEZIONE PERSONAGGI-----------*/
+
+#content4{
+  float:left;
+  left:14%;
+  position:absolute;
+  top: 205px;
+  width:65%;
+  padding: 20px;
+  background: white;
+  border: 5px solid black;
+  margin: auto;
+  min-height: 100%;
+  height:auto;
+  opacity: 0.9;
+  font-size: 30px;
+  overflow: auto;
+  max-width: 100%;
+}
+#personaggi{
+ text-align: center;
+ font-size: 30px;
+ color: #EE4000;
+ text-shadow: 2px 2px #FF0000;
+}
+#content4 h2{
+  text-align: center;
+  font-size: 20px;
+}
+
+#ted{
+  width: 100px;
+  position:absolute;
+  top: 155px;
+  right: 700px;
+  cursor: pointer;
+  border: 3px solid #8a2be2;
+  border-radius: 40%;
+
+}
+#ted:hover, #marshall:hover, #barney:hover, #lily:hover, #robin:hover, #tracy:hover{
+  -webkit-transition: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+
+}
+#marshall{
+  width: 100px;
+  position: absolute;
+  top: 155px;
+  right: 500px;
+  cursor: pointer;
+  border: 3px solid #8a2be2;
+  border-radius: 40%;
+
+}
+#barney{
+  width: 100px;
+  position: absolute;
+  top: 155px;
+  right: 300px;
+  cursor:pointer;
+  border: 3px solid #8a2be2;
+  border-radius: 40%;
+
+}
+#lily{
+  width: 100px;
+  position: absolute;
+  top: 155px;
+  right: 100px;
+  cursor: pointer;
+  border: 3px solid #8a2be2;
+  border-radius: 40%;
+
+}
+#robin{
+  width: 100px;
+  position: absolute;
+  top: 355px;
+  right: 500px;
+  cursor: pointer;
+  border: 3px solid #8a2be2;
+  border-radius: 40%;
+
+}
+#tracy{
+  width: 100px;
+  position: absolute;
+  top: 355px;
+  right: 300px;
+  cursor: pointer;
+  border: 3px solid #8a2be2;
+  border-radius: 40%;
+
+}
+#text{
+  position:absolute;
+  top: 520px;
+  right: 0;
+  left: 0;
+  width:auto;
+  padding: 20px;
+  background: white;
+  min-height: 100%;
+  height: auto;
+  opacity: 0.9;
+  font-size: 30px;
+  overflow: hidden;
+  max-width: 100%;
+  border: double 7px black;
+
+}
+
+
+/*-----------SEZIONE CURIOSITA'---------*/
+
+#content3{
+  float:left;
+  left:10%;
+  position:absolute;
+  top: 205px;
+  width: 70%;
+  padding: 20px;
+  background: white;
+  border: 5px solid black;
+  min-height: 100%;
+  height:auto;
+  opacity: 0.9;
+  font-size: 25px;
+}
+#curiosita{
+  text-align: center;
+  color: #FF7F24;
+  font-size: 40px;
+  text-shadow: 2px 2px #FF0000;
+}
+
+/*------------SEZIONE MEME--------*/
+
+#contentfoto{
+  float:left;
+  left:14%;
+  position:absolute;
+  top: 205px;
+  width:65%;
+  padding: 20px;
+  background: white;
+  border: 5px solid blue;
+  margin: auto;
+  min-height: 100%;
+  height:auto;
+  font-size: 30px;
+}
+#meme{
+  text-align: center;
+  color: #008B00;
+  font-size: 50px;
+  text-shadow: 2px 2px 	#7CFC00;
+}
+#foto{
+  position: absolute;
+  top: 135px;
+  right: 95px;
+  width: 80%;
+  height: 60%;
+  border: double 5px black;
+
+}
+.buttonind{
+  position: absolute;
+  top: 570px;
+  right: 500px;
+  border-radius: 20px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttonav{
+  position: absolute;
+  top: 570px;
+  right: 250px;
+  border-radius: 20px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+ #indietro1:hover{
+  box-shadow: 10px 0px 20px 10px grey;
+  -webkit-transition: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+  cursor: pointer;
+
+}
+ #avanti:hover{
+  box-shadow: -10px 0px 20px 10px grey;
+  -webkit-transition: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+
+/*---------SEZIONE CREDITI----------*/
+
+#contentcrediti{
+  float:left;
+  left:14%;
+  position:absolute;
+  top: 205px;
+  width:65%;
+ padding: 20px;
+  background: white;
+  border: 5px solid black;
+  min-height: 100%;
+  height:auto;
+  opacity: 0.9;
+  font-size: 22px;
+}
+#crediti{
+  text-align: center;
+  color: #00CDCD;
+  text-shadow: 2px 2px 8px #00FFFF;
+}
+
+/*-------PARTE MEDIA------*/
+
+
+@media only screen and (max-width: 1100px) {
+  #logo{
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+  #content h1{
+    font-size: 30px;
+  }
+#btntop{
+  position: absolute;
+  display: none;
+  right: 30px;
+  width: 50px;
+  border: none;
+  background: none;
+}
+
+#ted{
+ width: 20%;
+ position: static;
+}
+#marshall{
+  width: 20%;
+  position: static;
+}
+#barney{
+  width: 20%;
+  position: static;
+}
+#lily{
+  width: 20%;
+  position: static;
+}
+#robin{
+  width: 20%;
+  position: static;
+}
+#tracy{
+  width: auto;
+  position: static;
+}
+#foto{
+  position: static;
+  top: 150px;
+  right: 50px;
+  width: 70%;
+  height: 50%;
+  border: double 5px black;
+}
+.buttonind{
+  position: static;
+  width: 100px;
+}
+.buttonav{
+  position: static;
+  width: 100px;
+}
+}
